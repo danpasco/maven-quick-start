@@ -4,7 +4,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 		http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>clinic.programmming</groupId>
+  <groupId>clinic.programming</groupId>
   <artifactId>maven-quick-start</artifactId>
   <version>1.0</version>
+
+  <properties>
+    <java.version>11</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 </project>
